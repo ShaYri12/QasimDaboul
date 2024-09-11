@@ -8,8 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "bg-color": "#FFFAF3",
+        primaryColor: "#202020",
+        secondaryColor: "#707070",
+      },
+      fontFamily: {
+        abhaya: ["Abhaya Libre", "serif"],
       },
     },
   },
