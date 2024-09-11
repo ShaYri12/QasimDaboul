@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="text-gray-600 body-font">
+    <header className="text-gray-600 bg-[#FFFAF3]">
       <div className="max-w-[1280px] mx-auto flex p-5 items-center justify-between">
         {/* Logo */}
         <Link
@@ -88,7 +88,7 @@ const Header = () => {
         {/* Mobile Menu */}
         <div
           ref={menuRef}
-          className={`fixed inset-y-0 right-0 transform bg-white w-2/3 max-w-xs p-5 lg:hidden flex flex-col items-center gap-[40px] shadow-lg transition-transform duration-300 ease-in-out ${
+          className={`fixed inset-y-0 right-0 transform w-2/3 max-w-xs p-5 lg:hidden flex flex-col items-center gap-[40px] shadow-lg transition-transform duration-300 ease-in-out ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
