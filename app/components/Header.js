@@ -88,7 +88,7 @@ const Header = () => {
         {/* Mobile Menu */}
         <div
           ref={menuRef}
-          className={`fixed inset-y-0 right-0 transform w-2/3 max-w-xs p-5 lg:hidden flex flex-col items-center gap-[40px] shadow-lg transition-transform duration-300 ease-in-out ${
+          className={`fixed bg-color-bg inset-y-0 right-0 transform w-2/3 max-w-xs p-5 lg:hidden flex flex-col items-center gap-[40px] shadow-lg transition-transform duration-300 ease-in-out z-[999] ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
