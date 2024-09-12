@@ -73,13 +73,22 @@ const Services = () => {
     <div className="bg-[#FFFFFF80] md:py-[160px] py-[60px] max-w-[1280px] mx-auto overflow-hidden px-4">
       {/* About Text Section */}
       <div id="services" className="mb-[50px] pt-[20px]">
-        <h2 className="text-[22.46px] leading-[26.95px] font-[400] uppercase text-[#6D7D7D] tracking-[6px] text-center">
+        <h2
+          data-aos="fade-right"
+          className="text-[22.46px] leading-[26.95px] font-[400] uppercase text-[#6D7D7D] tracking-[6px] text-center"
+        >
           SERVICES
         </h2>
-        <h1 className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center">
+        <h1
+          data-aos="fade-up"
+          className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center"
+        >
           My Core Services
         </h1>
-        <p className="max-w-[1011px] mx-auto text-secondaryColor md:text-[20px] text-[19px] font-[400] leading-[30px] text-center">
+        <p
+          data-aos="fade-up"
+          className="max-w-[1011px] mx-auto text-secondaryColor md:text-[20px] text-[19px] font-[400] leading-[30px] text-center"
+        >
           Elevate your living or working space with bespoke interior design
           solutions that blend functionality with artistic flair. Let’s create a
           space that not only looks stunning but feels like home.
@@ -89,7 +98,7 @@ const Services = () => {
       {/* Slick Slider */}
       <Slider {...settings} className="mt-[50px]">
         {servicesData.map((service) => (
-          <div key={service.id} className="p-[10px]">
+          <div data-aos="fade-up" key={service.id} className="p-[10px]">
             <div className="rounded-lg overflow-hidden">
               <img
                 src={service.imgSrc}

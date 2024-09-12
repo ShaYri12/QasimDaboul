@@ -61,14 +61,20 @@ const CompletedProjects = () => {
   };
 
   return (
-    <section className="bg-color-bg px-4">
+    <section className="bg-color-bg px-4 overflow-hidden">
       <div className="md:py-[160px] py-[60px] max-w-[1280px] mx-auto overflow-hidden">
         {/* About Text Section */}
         <div className="mb-[50px] pt-[20px]">
-          <h1 className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center">
+          <h1
+            data-aos="fade-right"
+            className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center"
+          >
             Completed Projects
           </h1>
-          <p className="max-w-[1011px] mx-auto text-secondaryColor md:text-[20px] text-[19px] font-[400] leading-[30px] text-center">
+          <p
+            data-aos="fade-up"
+            className="max-w-[1011px] mx-auto text-secondaryColor md:text-[20px] text-[19px] font-[400] leading-[30px] text-center"
+          >
             Recently completed a modern home renovation that seamlessly blends
             contemporary aesthetics with functional living spaces, reflecting
             the client’s unique style.
@@ -78,7 +84,7 @@ const CompletedProjects = () => {
         {/* Slick Slider */}
         <Slider {...settings} className="mt-[50px]">
           {projectsData.map((project) => (
-            <div key={project.id} className="p-[10px]">
+            <div data-aos="fade-up" key={project.id} className="p-[10px]">
               <div className="rounded-lg overflow-hidden">
                 <div className="relative">
                   <img

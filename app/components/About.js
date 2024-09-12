@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-color-bg px-4">
+    <section className="bg-color-bg px-4 overflow-hidden">
       <div className="md:py-[160px] py-[60px] max-w-[1280px] mx-auto">
         {/* About Text Section */}
 
@@ -43,7 +43,10 @@ const About = () => {
 
         <div className="flex lg:flex-row flex-col gap-[30px]">
           {/* Image Grid Section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
+          <div
+            data-aos="fade-right"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]"
+          >
             <img
               src="/assets/about-img1.png"
               alt="Image 1"
@@ -58,7 +61,10 @@ const About = () => {
 
           {/* Stats Section */}
           <div className="flex flex-col xl:gap-[70px] gap-[40px]">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-[45px]">
+            <div
+              data-aos="fade-left"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-[45px]"
+            >
               <img
                 src="/assets/about-img3.png"
                 alt="Image 1"
@@ -71,7 +77,10 @@ const About = () => {
               />
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justiy-center text-center">
+            <div
+              data-aos="fade-up"
+              className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justiy-center text-center"
+            >
               <div className="sm:w-[70px] sm:mx-auto sm:text-left text-center">
                 <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   2K+
