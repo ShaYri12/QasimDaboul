@@ -43,45 +43,43 @@ const About = () => {
 
         <div className="flex lg:flex-row flex-col gap-[30px]">
           {/* Image Grid Section */}
-          <div
-            data-aos="fade-right"
-            className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
             <img
               src="/assets/about-img1.png"
               alt="Image 1"
               className="w-full max-h-[620px] object-cover"
+              data-aos="fade-right"
             />
             <img
               src="/assets/about-img2.png"
               alt="Image 2"
               className="w-full max-h-[620px] object-cover"
+              data-aos="fade-right"
             />
           </div>
 
           {/* Stats Section */}
           <div className="flex flex-col xl:gap-[70px] gap-[40px]">
-            <div
-              data-aos="fade-left"
-              className="grid grid-cols-1 sm:grid-cols-2 gap-[45px]"
-            >
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-[45px]">
               <img
                 src="/assets/about-img3.png"
                 alt="Image 1"
                 className="w-full max-h-[341px] rounded-tl-[70px] object-cover"
+                data-aos="fade-left"
               />
               <img
                 src="/assets/about-img4.png"
                 alt="Image 2"
                 className="w-full max-h-[341px] rounded-tr-[70px] object-cover"
+                data-aos="fade-left"
               />
             </div>
 
-            <div
-              data-aos="fade-up"
-              className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justiy-center text-center"
-            >
-              <div className="sm:w-[70px] sm:mx-auto sm:text-left text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justiy-center text-center">
+              <div
+                data-aos="fade-up"
+                className="sm:w-[70px] sm:mx-auto sm:text-left text-center"
+              >
                 <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   2K+
                 </h3>
@@ -89,7 +87,10 @@ const About = () => {
                   Projects Done
                 </p>
               </div>
-              <div className="sm:w-[60px] sm:mx-auto sm:text-left">
+              <div
+                data-aos="fade-up"
+                className="sm:w-[60px] sm:mx-auto sm:text-left"
+              >
                 <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   20+
                 </h3>
@@ -97,7 +98,10 @@ const About = () => {
                   Pro Designs
                 </p>
               </div>
-              <div className="sm:w-[100px] sm:mx-auto sm:text-left">
+              <div
+                data-aos="fade-up"
+                className="sm:w-[100px] sm:mx-auto sm:text-left"
+              >
                 <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   300+
                 </h3>
