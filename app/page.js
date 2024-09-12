@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HireMeNow from "./components/HireMeNow";
+import Process from "./components/Process";
 import Services from "./components/services";
 import WhyChooseMe from "./components/WhyChooseMe";
 
@@ -14,10 +15,11 @@ export default function Home() {
       <About />
       <Services />
       <WhyChooseMe />
+      <Process />
       <CompletedProjects />
-      <HireMeNow/>
+      <HireMeNow />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
