@@ -2,14 +2,14 @@ import React from "react";
 
 const WhyChooseMe = () => {
   return (
-    <div className="bg-[#f9f4ef] flex items-center justify-center">
+    <div className="bg-[#f9f4ef] flex items-center justify-center pb-[60px]">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-[60px] md:gap-[20px] mx-4 md:mx-auto">
         {/* Left column - Image */}
         <div className="relative w-full">
           <img
             src="/assets/why-choose-me.png"
             alt="Profile"
-            className="w-full md:ms-[-4px] ms-[-20px] max-h-[900px] object-cover rounded-br-[100px]"
+            className="w-full max-h-[900px]  md:ms-[-4px] ms-[-20px]  object-contain rounded-br-[100px]"
           />
         </div>
 
