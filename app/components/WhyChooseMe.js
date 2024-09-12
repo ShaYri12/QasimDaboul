@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChooseMe = () => {
   return (
-    <div className="bg-[#f9f4ef] flex items-center justify-center pb-[60px]">
+    <div className="bg-color-bg flex items-center justify-center pb-[60px]">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-[60px] md:gap-[20px] mx-4 md:mx-auto">
         {/* Left column - Image */}
         <div className="relative w-full">
