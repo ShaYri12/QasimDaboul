@@ -15,6 +15,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* slider styles */
 .slick-dots li button::before {
   width: 19.2px !important;

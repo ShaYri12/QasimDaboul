@@ -5,8 +5,11 @@ const Contact = () => {
   const [isTypingName, setIsTypingName] = useState(false);
   const [isTypingEmail, setIsTypingEmail] = useState(false);
   return (
-    <div className="bg-white flex items-center justify-center py-[160px] px-4">
-      <div className="max-w-[1280px] grid grid-cols-1 md:grid-cols-2 lg:gap-[60px] md:gap-[20px] mx-4 md:mx-auto">
+    <div className="bg-white flex items-center justify-center py-[140px] px-4">
+      <div
+        id="contact"
+        className="max-w-[1280px] grid grid-cols-1 md:grid-cols-2 lg:gap-[60px] md:gap-[20px] mx-4 md:mx-auto pt-[20px]"
+      >
         {/* Left column - Image */}
         <div className="relative w-full">
           <img

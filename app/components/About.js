@@ -64,26 +64,26 @@ const About = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justiy-center text-center">
               <div className="sm:w-[70px] sm:mx-auto sm:text-left text-center">
-                <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[50px] font-[700] text-primaryColor leading-[76.8px]">
+                <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   2K+
                 </h3>
-                <p className="text-secondaryColor 2xl:text-[0.9vw] lg:text-[1.5vw] text-[22px] font-[400] leading-[33px] tracking-[4px] uppercase xl:mt-[20px] mt-[10px]">
+                <p className="text-secondaryColor 2xl:text-[0.9vw] lg:text-[1.5vw] text-[18px] font-[400] leading-[33px] tracking-[4px] uppercase xl:mt-[20px] md:mt-[10px]">
                   Projects Done
                 </p>
               </div>
               <div className="sm:w-[60px] sm:mx-auto sm:text-left">
-                <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[50px] font-[700] text-primaryColor leading-[76.8px]">
+                <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   20+
                 </h3>
-                <p className="text-secondaryColor 2xl:text-[0.9vw] lg:text-[1.5vw] text-[22px] font-[400] leading-[33px] tracking-[4px] uppercase xl:mt-[20px] mt-[10px]">
+                <p className="text-secondaryColor 2xl:text-[0.9vw] lg:text-[1.5vw] text-[18px] font-[400] leading-[33px] tracking-[4px] uppercase xl:mt-[20px] md:mt-[10px]">
                   Pro Designs
                 </p>
               </div>
               <div className="sm:w-[100px] sm:mx-auto sm:text-left">
-                <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[50px] font-[700] text-primaryColor leading-[76.8px]">
+                <h3 className="2xl:text-[2.1vw] lg:text-[4vw] md:text-[5vw] text-[40px] font-[700] text-primaryColor leading-[76.8px]">
                   300+
                 </h3>
-                <p className="text-secondaryColor 2xl:text-[0.9vw] lg:text-[1.5vw] text-[22px] font-[400] leading-[33px] tracking-[4px] uppercase xl:mt-[20px] mt-[10px]">
+                <p className="text-secondaryColor 2xl:text-[0.9vw] lg:text-[1.5vw] text-[18px] font-[400] leading-[33px] tracking-[4px] uppercase xl:mt-[20px] md:mt-[10px]">
                   Global Clients
                 </p>
               </div>

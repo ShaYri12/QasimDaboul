@@ -31,7 +31,7 @@ const servicesData = [
     roundedClass: "rounded-tl-[100px]", // Dynamic rounded class
   },
   {
-    id: 3,
+    id: 4,
     title: "Drafting Designs",
     description:
       "Create your dream home with draft designs that capture your vision and turn it into a stunning, functional interior. Let's bring your ideas to life with personalized design solutions.",
