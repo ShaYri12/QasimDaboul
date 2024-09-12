@@ -61,7 +61,7 @@ const CompletedProjects = () => {
   };
 
   return (
-    <div className="bg-[#FFFFFF80] md:py-[160px] py-[60px] max-w-[1280px] mx-auto overflow-hidden px-4">
+    <div className="bg-color-bg md:py-[160px] py-[60px] max-w-[1280px] mx-auto overflow-hidden px-4">
       {/* About Text Section */}
       <div className="mb-[50px] pt-[20px]">
         <h1 className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center">
