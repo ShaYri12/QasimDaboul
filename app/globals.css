@@ -14,3 +14,28 @@ body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
 }
+
+/* slider styles */
+.slick-dots li button::before {
+  width: 19.2px !important;
+  height: 12px !important;
+  color: transparent;
+  content: " " !important;
+  border-radius: 16px !important;
+  background-color: #202020 !important; /* Inactive dot color */
+  transition: width 0.3s ease;
+}
+
+.slick-dots li.slick-active {
+  width: 40px !important;
+  height: 12px !important;
+  border-radius: 16px !important;
+  background-color: #202020 !important; /* Inactive dot color */
+  transition: width 0.3s ease;
+}
+.slick-dots li.slick-active {
+  width: 60px; /* Expand active dot */
+  height: 12px; /* Expand active dot */
+  border-radius: 16px;
+  background-color: #202020; /* Active dot color */
+}
