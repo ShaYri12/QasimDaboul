@@ -7,7 +7,10 @@ const Hero = () => {
         id="home"
         className="flex md:flex-row flex-col xl:gap-[50px] lg:gap-[40px] gap-[30px] pt-[48px] lg:pt-[9vw] pb-[60px] max-w-[1280px] mx-auto"
       >
-        <div className="md:w-1/2 w-full flex flex-col justify-end">
+        <div
+          data-aos="fade-right"
+          className="md:w-1/2 w-full flex flex-col justify-end"
+        >
           <h1 className="font-abhaya 2xl:text-[5.4vw] lg:text-[8vw] md:text-[8.7vw] sm:text-[9vw] text-[50px] font-[700] text-black 2xl:leading-[6vw] xl:leading-[6.8vw] lg:leading-[8vw] md:leading-[8.7vw] leading-[50px]">
             Best Interior Designs!
           </h1>
@@ -19,7 +22,10 @@ const Hero = () => {
             Hire Me
           </button>
         </div>
-        <div className="md:w-1/2 w-full lg:h-[570px] md:h-[500px] h-[100vw] mt-6 md:mt-0 flex justify-center relative">
+        <div
+          data-aos="fade-left"
+          className="md:w-1/2 w-full lg:h-[570px] md:h-[500px] h-[100vw] mt-6 md:mt-0 flex justify-center relative"
+        >
           <div className="absolute bottom-0 z-[2] bg-[#91918F] rounded-t-full 2xl:w-[599px] 2xl:h-[587px] w-[90%] xl:h-[37vw] md:h-[40vw] h-[80vw]"></div>
           <img
             className="absolute max-w-[80%] rounded-[15px] bottom-0 z-[3]"
