@@ -61,51 +61,53 @@ const CompletedProjects = () => {
   };
 
   return (
-    <div className="bg-color-bg md:py-[160px] py-[60px] max-w-[1280px] mx-auto overflow-hidden px-4">
-      {/* About Text Section */}
-      <div className="mb-[50px] pt-[20px]">
-        <h1 className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center">
-          Completed Projects
-        </h1>
-        <p className="max-w-[1011px] mx-auto text-secondaryColor md:text-[20px] text-[19px] font-[400] leading-[30px] text-center">
-          Recently completed a modern home renovation that seamlessly blends
-          contemporary aesthetics with functional living spaces, reflecting the
-          client’s unique style.
-        </p>
-      </div>
+    <div className="bg-color-bg w-full">
+      <div className="md:py-[160px] py-[60px] max-w-[1280px] mx-auto overflow-hidden px-4">
+        {/* About Text Section */}
+        <div className="mb-[50px] pt-[20px]">
+          <h1 className="sm:text-[56px] text-[40px] sm:leading-[67.37px] leading-[50px] font-[600] text-primaryColor mb-[23px] mt-[6px] text-center">
+            Completed Projects
+          </h1>
+          <p className="max-w-[1011px] mx-auto text-secondaryColor md:text-[20px] text-[19px] font-[400] leading-[30px] text-center">
+            Recently completed a modern home renovation that seamlessly blends
+            contemporary aesthetics with functional living spaces, reflecting the
+            client’s unique style.
+          </p>
+        </div>
 
-      {/* Slick Slider */}
-      <Slider {...settings} className="mt-[50px]">
-        {projectsData.map((project) => (
-          <div key={project.id} className="p-[10px]">
-            <div className="rounded-lg overflow-hidden">
-              <div className="relative">
-                <img
-                  src={project.imgSrc}
-                  alt={project.title}
-                  className="w-full max-h-[700px] object-cover rounded-[40px]"
-                />
-                {project.video && (
-                  <div className="absolute inset-0 flex items-center justify-center z-[3]">
-                    <Image
-                      className="pointer"
-                      width={162}
-                      height={162}
-                      src="/assets/play-button.svg"
-                      alt="Play Button"
-                    />
-                  </div>
-                )}
-              </div>
-              <div className="p-[10px] pt-[30px] text-center">
-                <h3 className="xl:text-[32px] lg:text-[28px] md:text-[26px] text-[24px] font-[500] text-primaryColor leading-[38.4px] mb-[20px]">
-                  {project.title}
-                </h3>
+        {/* Slick Slider */}
+        <Slider {...settings} className="mt-[50px]">
+          {projectsData.map((project) => (
+            <div key={project.id} className="p-[10px]">
+              <div className="rounded-lg overflow-hidden">
+                <div className="relative">
+                  <img
+                    src={project.imgSrc}
+                    alt={project.title}
+                    className="w-full max-h-[700px] object-cover rounded-[40px]"
+                  />
+                  {project.video && (
+                    <div className="absolute inset-0 flex items-center justify-center z-[3]">
+                      <Image
+                        className="pointer"
+                        width={162}
+                        height={162}
+                        src="/assets/play-button.svg"
+                        alt="Play Button"
+                      />
+                    </div>
+                  )}
+                </div>
+                <div className="p-[10px] pt-[30px] text-center">
+                  <h3 className="xl:text-[32px] lg:text-[28px] md:text-[26px] text-[24px] font-[500] text-primaryColor leading-[38.4px] mb-[20px]">
+                    {project.title}
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };
