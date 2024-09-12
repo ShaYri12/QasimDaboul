@@ -3,9 +3,9 @@ import React from "react";
 
 const HireMeNow = () => {
   return (
-    <section className="bg-color-bg">
-      <div className="md:py-[100px] py-[40px] max-w-[1280px] mx-auto">
-        <div className="w-full bg-[#202020] sm:rounded-se-[100px] flex xl:items-center xl:justify-end relative flex-col xl:flex-row overflow-hidden">
+    <div className="bg-color-bg w-full">
+      <div className="pt-10 max-w-[1280px] mx-auto">
+        <div className="w-full bg-[#202020] sm:rounded-se-[100px] flex xl:items-center xl:justify-end relative flex-col xl:flex-row">
           <Image
             src="/assets/hire-me-now.svg"
             alt="hire-me-now"
@@ -28,7 +28,7 @@ const HireMeNow = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
